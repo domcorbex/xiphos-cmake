@@ -1,0 +1,120 @@
+<page id="toolbars" type="topic" xmlns="http://projectmallard.org/1.0/"
+       xmlns:its="http://www.w3.org/2005/11/its">
+
+  <info>
+    <desc>Toolbars.</desc>
+
+    <link type="guide" xref="index#interface"/>
+
+    <revision docversion="4.0.0" version="1.0" date="2017-10-30" status="stub"/>
+
+    <title type='link' role="trail"></title>
+    <title type='text'>Xiphos</title>
+
+    <credit type="author">
+      <name>Andy Piper</name>
+    </credit>
+    <credit type="author">
+      <name>Pierre Benz</name>
+    </credit>
+    <credit type="author">
+      <name>Dr Peter von Kaehne</name>
+    </credit>
+    <credit type="author">
+      <name>Karl Kleinpaste</name>
+    </credit>
+    <credit type="author">
+      <name>Matthew Talbert</name>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+
+  <!-- ============= Toolbars  ============-->
+
+  <title>Toolbars</title>
+
+  <p>The function of the Toolbar is to provide control over the Bible and Commentary Panes.
+  Activation of the Toolbar option is done by moving the mouse cursor over the desired toolbar
+  button and selecting it. A tooltip will appear if the mouse cursor is held stationary over
+  a toolbar button, describing the function of the button. </p>
+
+  <media type="image" mime="image/png" src="figures/interface_toolbar.png" />
+
+  <p>The <gui>Toolbar</gui> consists of the following functions:</p>
+  <terms>
+    <item>
+      <title>History View Toggle and drop-down menu	</title>
+    </item>
+    <item>
+				<title>
+				Bible Book Selector
+				</title>
+			</item>
+			<item>
+				<title>
+				Bible Chapter Selector
+				</title>
+			</item>
+			<item>
+				<title>
+				Bible Verse Selector
+				</title>
+			</item>
+			<item>
+				<title>
+				Bible Passage Summary
+				</title>
+			</item>
+		</terms>
+		
+		<sect3>
+			<title>History Forward/Backward Selector</title>
+			<para>
+			Switches between current and previous passage selections.
+			</para>
+		</sect3>
+			
+		<sect3 id="xiphos-toolbar-book">
+			<title>Bible Book Selector</title>
+			<para>		
+			Selects the Biblical book to be displayed in the <interface>Bible Text Pane</interface> and 
+			<interface>Commentary Pane</interface>. Changes take immediate effect.
+			</para>
+		</sect3>
+			
+		<sect3 id="xiphos-toolbar-chapter">
+			<title>Bible Chapter Selector</title>
+			<para>
+			Selects the Biblical chapter of current book to be displayed in the <interface>Bible Text Pane</interface> and 
+			<interface>Commentary Pane</interface>. Changes take immediate effect.
+			</para>
+		</sect3>
+			
+		<sect3 id="xiphos-toolbar-verse">
+			<title>Bible Verse Selector</title>
+			<para>
+			Selects the Biblical verse of current chapter to be displayed in the <interface>Bible Text Pane</interface> and 
+			<interface>Commentary Pane</interface>. Changes take immediate effect.
+			</para>
+		</sect3>
+		
+		<sect3 id="xiphos-toolbar-summary">
+			<title>Bible Passage Summary</title>
+			<para>
+			Allows manual editing of passages which are displayed in the <interface>Bible Text Pane</interface> and 
+			<interface>Commentary Pane</interface>. Changes take effect once Enter is typed.
+			</para>
+			<warning>
+				<para>
+				Ensure that edited book,chapter and verse naming is correct, otherwise the wrong or no information
+				will be displayed.
+				</para>
+			</warning>
+		</sect3>
+	</sect2>
+   
+
+</page>

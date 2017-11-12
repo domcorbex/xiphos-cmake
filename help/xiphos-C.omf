@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Andy Piper)</creator>
+    <creator>(Pierre Benz)</creator>
+    <creator>(Dr Peter von Kaehne)</creator>
+    <creator>(Karl Kleinpaste)</creator>
+    <creator>(Matthew Talbert)</creator>
+    <maintainer>(The Xiphos Team)</maintainer>
+    <contributor>(Dominique Corbex)</contributor>
+    <title>Xiphos Manual</title>
+    <date>December 2014</date>
+    <version identifier="Xiphos Manual V4.0.7" date="December 2014"/>
+    <subject category="GNOME|Applications"/>
+    <description>
+      Xiphos is an application to aid in study of the Bible.
+    </description>
+    <type>manual</type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///home/domi/xiphos/xiphos-waf/install/share/gnome/help/xiphos/C/xiphos.xml"/>
+    <language code="C"/>
+    <relation seriesid="3376140e-2a26-11d8-9eab-83cf5b4f5f4e"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Pierre Benz"/>
+  </resource>
+</omf>

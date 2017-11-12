@@ -1,0 +1,78 @@
+<page id="index" type="guide" xmlns="http://projectmallard.org/1.0/"
+       xmlns:its="http://www.w3.org/2005/11/its">
+
+  <info>
+    <revision docversion="4.0.0" version="1.0" date="2017-10-22" status="outdated"/>
+
+    <desc>Xiphos is an application to aid in study of the Bible.</desc>
+    <title type='link' role="trail"><media type="image" its:translate="no" src="../../pixmaps/gs2-48x48.png"/></title>
+    <title type='text'>Xiphos</title>
+
+    <credit type="author">
+      <name>Andy Piper</name>
+    </credit>
+    <credit type="author">
+      <name>Pierre Benz</name>
+    </credit>
+    <credit type="author">
+      <name>Dr Peter von Kaehne</name>
+    </credit>
+    <credit type="author">
+      <name>Karl Kleinpaste</name>
+    </credit>
+    <credit type="author">
+      <name>Matthew Talbert</name>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>
+  <media type="image" its:translate="no" src="../../pixmaps/gs2-48x48.png">
+    <span its:translate="yes">Xiphos logo</span>
+  </media>
+ <app>Xiphos</app> Bible study and research tool
+</title>
+
+  <section id="getting-started" style="2column">
+    <title>Getting Started</title>
+  </section>
+
+  <section id="interface" style="2column">
+    <title>Interface</title>
+  </section>
+  
+  <section id="preferences" style="2column">
+    <title>Preferences</title>
+  </section>
+
+  <section id="module-manager" style="2column">
+    <title>Module Manager</title>
+  </section>
+
+  <section id="search-function" style="2column">
+    <title>The Search Function</title>
+  </section>
+
+  <section id="studypad" style="2column">
+    <title>The Studypad</title>
+  </section>
+
+  <section id="personal-commentary" style="2column">
+    <title>The Personal Commentary</title>
+  </section>
+
+  <section id="journal" style="2column">
+    <title>Journals and Prayer Lists</title>
+  </section>
+
+  <section id="online-help" style="2column">
+    <title>Getting Online Help</title>
+  </section>
+
+  <section id="orl" style="2column">
+    <title>Original Language Research</title>
+  </section>
+
+</page>

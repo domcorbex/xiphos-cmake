@@ -1,0 +1,41 @@
+<page id="menubar" type="topic" xmlns="http://projectmallard.org/1.0/"
+       xmlns:its="http://www.w3.org/2005/11/its">
+
+  <info>
+    <desc>Xiphos menubar</desc>
+
+    <link type="guide" xref="index#interface"/>
+
+    <revision docversion="4.0.0" version="1.0" date="2017-10-22" status="stub"/>
+
+    <title type='link' role="trail"></title>
+    <title type='text'>Xiphos</title>
+
+    <credit type="author">
+      <name>Andy Piper</name>
+    </credit>
+    <credit type="author">
+      <name>Pierre Benz</name>
+    </credit>
+    <credit type="author">
+      <name>Dr Peter von Kaehne</name>
+    </credit>
+    <credit type="author">
+      <name>Karl Kleinpaste</name>
+    </credit>
+    <credit type="author">
+      <name>Matthew Talbert</name>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>Menubar</title>
+  <p>At the top of the <app>Xiphos</app> main window is the menubar. Almost all of the
+  functions are available by activating the appropriate menu item. The functions have
+  been grouped according to their type. For example, the file operations have been grouped
+  into the <gui>File</gui> menu.</p>
+  <media type="image" mime="image/png" src="figures/interface_menubar.png" />
+  
+</page>

@@ -1,0 +1,49 @@
+[OPTIONS]
+Compiled file=xiphos.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=xiphos.hhc
+Default Window=main
+Default topic=xiphos.html
+Index file=xiphos.hhk
+Language=0x0429 Farsi (Iran)
+Title=Xiphos
+
+[WINDOWS]
+main="Xiphos","xiphos.hhc","xiphos.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+index.html
+figures/first_start.png
+figures/interface_biblepane-options.png
+figures/interface_biblepane.png
+figures/interface_commentarypane.png
+figures/interface_dictionary.png
+figures/interface_menubar.png
+figures/interface_menubar-view.png
+figures/interface_parallel.png
+figures/interface_parallel-separate.png
+figures/interface.png
+figures/interface_searchpane.png
+figures/interface_shortcut.png
+figures/interface_sidepane.png
+figures/interface_toolbar.png
+figures/interface_viewer.png
+figures/journal.png
+figures/module.png
+figures/personal.png
+figures/preferences_fonts-color.png
+figures/preferences_fonts-misc.png
+figures/preferences_general-misc.png
+figures/preferences_general-biblesync.png
+figures/preferences_modules-misc.png
+figures/preferences_modules-parallel.png
+figures/search_search.png
+figures/studypad.png
+figures/sword3.png
+figures/sword_config.png
+figures/sword_install.png
+figures/sword_remove.png
+figures/sword_sources.png
+figures/xiphos-icon.png
+figures/xiphos-trail-icon.png

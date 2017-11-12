@@ -1,0 +1,93 @@
+<page id="launching" type="topic" xmlns="http://projectmallard.org/1.0/"
+       xmlns:its="http://www.w3.org/2005/11/its">
+
+  <info>
+    <desc>Xiphos is an application to aid in study of the Bible.</desc>
+
+    <link type="guide" xref="index#getting-started"/>
+
+    <revision docversion="4.0.0" version="1.0" date="2017-10-30" status="draft"/>
+
+    <title type='link' role="trail"></title>
+    <title type='text'>Xiphos</title>
+
+    <credit type="author">
+      <name>Andy Piper</name>
+    </credit>
+    <credit type="author">
+      <name>Pierre Benz</name>
+    </credit>
+    <credit type="author">
+      <name>Dr Peter von Kaehne</name>
+    </credit>
+    <credit type="author">
+      <name>Karl Kleinpaste</name>
+    </credit>
+    <credit type="author">
+      <name>Matthew Talbert</name>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+
+  <!-- Xiphos on first time use -->
+
+  <title>Launching Xiphos</title>
+  <p>When you start <app>Xiphos</app>, the following interface is displayed:</p>
+
+  <!--  Xiphos interface -->
+  <media type="image" width="800px" mime="image/png" src="figures/interface.png" />
+
+  <p>The <app>Xiphos</app> interface contains the following elements:</p>
+  <terms>
+    <item>
+      <title>Menubar</title>
+      <p>The menus on the menubar contain several commands which extend the use of <app>Xiphos
+      </app>. These include the StudyPad and advanced search functions. The menus also help you
+      to customize your use of <app>Xiphos</app>.</p>
+    </item>
+    <item>
+      <title>Toolbar</title>
+      <p>The <gui>toolbar</gui> contains buttons that let you quickly navigate through the
+      Bible.</p>
+    </item>
+    <item>
+      <title>Sidebar</title>
+      <p>The <gui>Sidebar</gui> provides access to several features.
+      It contains your bookmarks and the list of installed books. It can also be
+      used to perform simple searches.</p>
+    </item>
+    <item>
+      <title>Bible Text Pane</title>
+      <p>The <gui>Bible Text pane</gui> displays the Bible text which is currently being
+      viewed.</p>
+    </item>
+    <item>
+      <title>Previewer</title>
+      <p>The <gui>Previewer</gui> displays Bible text module options. These include Strong's
+      numbers, footnotes and morphological tags. It is located below the Bible Text Pane.</p>
+    </item>
+    <item>
+      <title>Commentary Pane</title>
+      <p>The <gui>Commentary pane</gui> displays commentaries on the current Bible Text being
+      used.</p>
+    </item>
+    <item>
+      <title>Book Pane</title>
+      <p>The <gui>Book Pane</gui> displays general books available from the Sword Project.
+      These include modules like "Calvin's Institutes", "Josephus: The Complete Works" etc.
+      This Pane can be accessed	via the Book View tab just below the Commentary Pane.</p>
+    </item>
+    <item>
+      <title>Dictionary/Book Pane</title>
+      <p>The <gui>Dictionary/Book Pane</gui> displays dictionary information on selected
+      words in the <gui>Bible Text Pane</gui>. It is located just below the Commentary Pane.</p>
+    </item>
+  </terms>
+  <p>When you right-click in the different interface sections, the interface displays a
+  context popup menu, which provides access to more module-specific options, including
+  display controls and printing services.</p>
+
+</page>

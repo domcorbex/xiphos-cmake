@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(اندی پایپر)</creator>
+    <creator>(پیر بنز)</creator>
+    <creator>(دکتر پیتر فن کاهن)</creator>
+    <creator>(کارل کلاین‏پیست)</creator>
+    <creator>(متیو تالبرت)</creator>
+    <maintainer>(تیم زیفوس)</maintainer>
+    <contributor>(Dominique Corbex)</contributor>
+    <title>Xiphos راهنما</title>
+    <date>December 2014</date>
+    <version identifier="Xiphos Manual V4.0.7" date="December 2014"/>
+    <subject category="GNOME|Applications"/>
+    <description>
+      زیفوس برنامه‏ای است که به منظور کمک رسانی در مطالعۀ کتاب‏مقدس تهیه شده است.
+    </description>
+    <type>manual</type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///home/domi/xiphos/xiphos-waf/install/share/gnome/help/xiphos/fa/xiphos.xml"/>
+    <language code="fa"/>
+    <relation seriesid="3376140e-2a26-11d8-9eab-83cf5b4f5f4e"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Pierre Benz"/>
+  </resource>
+</omf>

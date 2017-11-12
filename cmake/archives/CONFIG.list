@@ -1,0 +1,47 @@
+    dfn = conf.define
+    # DATADIR is defined by intltool in config.h - conflict in win32 (mingw)
+    conf.undefine('DATADIR')
+    # msvc has levels predefined
+    define = conf.define
+    define('VERSION', VERSION)
+    define('PACKAGE_VERSION', VERSION)
+    define('GETTEXT_PACKAGE', PACKAGE)
+    define('PACKAGE', PACKAGE)
+    define('PACKAGE_NAME', APPNAME)
+    define('PACKAGE_STRING', '%s %s' % (APPNAME, VERSION))
+    define('PACKAGE_TARNAME', PACKAGE)
+    define('INSTALL_PREFIX', conf.escpath(sub('${PREFIX}/', env)))
+    define('PACKAGE_BUGREPORT','https://github.com/crosswire/xiphos/issues' )
+    define('PACKAGE_DATA_DIR', conf.escpath(sub('${DATAROOTDIR}/${PACKAGE}', env)))
+    define('PACKAGE_DOC_DIR', conf.escpath(env['DOCDIR']))
+    define('PACKAGE_HELP_DIR', conf.escpath(sub('${DATAROOTDIR}/gnome/help/${PACKAGE}', env)))
+    define('PACKAGE_LOCALE_DIR', conf.escpath(env['LOCALEDIR']))
+    define('PACKAGE_MENU_DIR', conf.escpath(sub('${DATAROOTDIR}/applications', env)))
+    #define('PACKAGE_PIXMAPS_DIR', conf.escpath(sub('${DATAROOTDIR}/pixmaps/${PACKAGE}', env)))
+    define('PACKAGE_PIXMAPS_DIR', conf.escpath(sub('${DATAROOTDIR}/${PACKAGE}', env)))
+    define('PACKAGE_SOURCE_DIR', conf.escpath(os.path.abspath(srcdir))) # folder where was wscript executed
+        define('PACKAGE_APPDATA_DIR', conf.escpath(sub('${INSTALL_PREFIX}/share/appdata', env)))
+            conf.define('USE_WEBKIT_EDITOR', 1)
+        conf.define('USE_GTK_3', 1)
+        conf.define('USE_GTKBUILDER', 1)
+            conf.define('USE_WEBKIT_EDITOR', 1)
+                conf.define('USE_WEBKIT2', 1)
+    # Random defines... legacy from autotools. Can we drop these?
+    conf.check_cc(msg='Checking for function strcasestr', define_name="HAVE_STRCASESTR",
+    # portable adding define, should work gcc and msvc
+defines = sub('''
+    defines = defines,
+defines = sub('''
+    defines = defines,
+    dfn = conf.define
+        dfn('WIN32', 1)
+    dfn('WEBKIT', 1) 
+        dfn('GTK2', 1)
+    #dfn('LT_OBJDIR', '.libs') - what's the purpose?
+    dfn('STDC_HEADERS', 1)
+    dfn('TIME_WITH_SYS_TIME', 1)
+    dfn('ENABLE_NLS', 1)
+    dfn('HAVE_BIND_TEXTDOMAIN_CODESET', 1)
+    dfn('HAVE_GETTEXT', 1)
+    dfn('HAVE_DCGETTEXT', 1)
+        dfn('CHATTY', 1)
