@@ -112,19 +112,20 @@ cmake ... -DWITH_WEBKIT1 -DWITH_GTKHTML ...
 ```
 
 List of options:
-Option        | Functionality                                | Default
+
+Option | Functionality | Default
 ------------- | -------------------------------------------- | -------
-WITH_GTK2     |Force UI build with Gtk2 instead of Gtk3.     | OFF
-WITH_GTKHTML  |Force gtkhtml editor instead of webkit editor.| OFF
-WITH_WEBKIT1  |Force webkit1 instead of webkit2.             | ON
-WITH_DBUS     |Use the Xiphos dbus API.                      | ON
-WITH_CHATTY   |Enable lots of tracing.                       | OFF
-WITH_HELP     |Creating help files.                          | ON
-WITH_STRIP    |Strip resulting binary (Release only).        | ON
-WITH_DEBUG    |Enable Xiphos gui debugging functions.        | OFF
-WITH_DELINT   |Build with: -Wall -Werror.                    | OFF
-WITH_CONSOLE  |Enable console window in win32.               | OFF
-WITH_POSTINST |Enable post-install tasks.                    | ON
+WITH_GTK2 | Force UI build with Gtk2 instead of Gtk3. | OFF
+WITH_GTKHTML | Force gtkhtml editor instead of webkit editor. | OFF
+WITH_WEBKIT1 | Force webkit1 instead of webkit2. | ON
+WITH_DBUS | Use the Xiphos dbus API. | ON
+WITH_CHATTY | Enable lots of tracing. | OFF
+WITH_HELP | Creating help files. | ON
+WITH_STRIP | Strip resulting binary (Release only). | ON
+WITH_DEBUG | Enable Xiphos gui debugging functions. | OFF
+WITH_DELINT | Build with: -Wall -Werror. | OFF
+WITH_CONSOLE | Enable console window in win32. | OFF
+WITH_POSTINST | Enable post-install tasks. | ON
 
 For more information and an updated list of options, please check the file
 cmake/Xiphos.Options.cmake (https://github.com/xiphos/cmake/Xiphos.Options.cmake).
