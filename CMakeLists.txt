@@ -9,7 +9,7 @@ cmake_policy(VERSION 3.4)
 
 ### set project name and version ###
 project (xiphos LANGUAGES C CXX)
-set (PROJECT_VERSION "4.0.7")
+set (PROJECT_VERSION "4.0.8.a")
 
 # set project other properties
 set (PROJECT_BUGREPORT "https://github.com/crosswire/xiphos/issues")
