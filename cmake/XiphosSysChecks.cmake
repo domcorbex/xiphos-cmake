@@ -38,3 +38,8 @@ foreach (header ${XIPHOS_HEADERS})
     message(FATAL_ERROR "${header} not found!")
   endif()
 endforeach()
+
+# find Threads
+set(CMAKE_THREAD_PREFER_PTHREAD ON)
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)

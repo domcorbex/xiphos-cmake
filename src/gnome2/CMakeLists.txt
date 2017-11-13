@@ -187,6 +187,7 @@ target_link_libraries(
   ${PROJECT_NAME}
   LINK_PUBLIC
   ${DEPS_LIBRARY_DIRS}
+  Threads::Threads
   LINK_PRIVATE
   libmain
   libbackend
