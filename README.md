@@ -128,18 +128,15 @@ WITH_CONSOLE | Enable console window in win32. | OFF
 WITH_POSTINST | Enable post-install tasks. | ON
 
 Examples:
-- release build with gtk3 + webkit2
-
+- release build with gtk3 + webkit2:
 ```
 $ cmake <XIPHOS_SOURCE> -G Ninja -DWITH_GTKHTML=ON -DWEBKIT1=OFF
 ```
-- release build with Gtk2
-
+- release build with Gtk2:
 ```
 $ cmake <XIPHOS_SOURCE> -G Ninja -DWITH_GTK2=ON
 ```
-- debug build
-
+- debug build:
 ```
 $ cmake <XIPHOS_SOURCE> -G Ninja -DCMAKE_BUILD_TYPE=debug -DWITH_CHATTY=ON
 ```
