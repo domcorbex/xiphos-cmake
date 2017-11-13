@@ -1,4 +1,4 @@
-# Xiphos Temp repository to test CMake buildsystem
+# Testing to build Xiphos with CMake
 
 This files describes Xiphos's port to CMake based buildsystem. CMake is 
 a cross-platform tool for generating makefiles (as well as project files
@@ -142,7 +142,7 @@ $ cmake <XIPHOS_SOURCE> -G Ninja -DWITH_GTK2=ON
 $ cmake <XIPHOS_SOURCE> -G Ninja -DCMAKE_BUILD_TYPE=debug -DWITH_CHATTY=ON
 ```
 For more information and an updated list of options, please check the file
-cmake/Xiphos.Options.cmake (https://github.com/xiphos/cmake/XiphosOptions.cmake).
+cmake/XiphosOptions.cmake (https://github.com/domcorbex/xiphos-cmake/blob/master/cmake/XiphosOptions.cmake).
 
 ## Extra targets for developpers
 
