@@ -1,4 +1,4 @@
-# Testing to build Xiphos with CMake
+# Test of building Xiphos with CMake
 
 This files describes Xiphos's port to CMake based buildsystem. CMake is 
 a cross-platform tool for generating makefiles (as well as project files
