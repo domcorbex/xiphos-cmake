@@ -108,7 +108,7 @@ cmake ... -DWITH_GTK2=ON ...
 Example for building with WebKitGtk1 and the GtkHTML-editor:
 
 ```
-cmake ... -DWITH_WEBKIT1 -DWITH_GTKHTML ...
+cmake ... -DWITH_WEBKIT1=ON -DWITH_GTKHTML=ON ...
 ```
 
 List of options:
@@ -126,6 +126,14 @@ WITH_DEBUG | Enable Xiphos gui debugging functions. | OFF
 WITH_DELINT | Build with: -Wall -Werror. | OFF
 WITH_CONSOLE | Enable console window in win32. | OFF
 WITH_POSTINST | Enable post-install tasks. | ON
+
+Examples:
+- release build with gtk3 + webkit2
+$ cmake <XIPHOS_SOURCE> -G Ninja -DWITH_GTKHTML=ON -DWEBKIT1=OFF
+- release build with Gtk2
+$ cmake <XIPHOS_SOURCE> -G Ninja -DWITH_GTK2=ON
+- debug build
+$ cmake <XIPHOS_SOURCE> -G Ninja -DCMAKE_BUILD_TYPE=debug -DWITH_CHATTY=ON
 
 For more information and an updated list of options, please check the file
 cmake/Xiphos.Options.cmake (https://github.com/xiphos/cmake/Xiphos.Options.cmake).
