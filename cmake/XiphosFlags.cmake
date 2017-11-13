@@ -31,7 +31,7 @@ endif()
 set (CMAKE_C_FLAGS
   "${CMAKE_C_FLAGS} -fno-delete-null-pointer-checks")
 set (CMAKE_CXX_FLAGS
-  "${CMAKE_CXX_FLAGS} -fno-delete-null-pointer-checks")
+  "${CMAKE_CXX_FLAGS} -rdynamic -fno-delete-null-pointer-checks")
 
 
 # set 'delint' option flags
