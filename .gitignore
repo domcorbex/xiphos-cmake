@@ -1,0 +1,10 @@
+*.pyc
+*.swp
+*~
+.lock-wscript
+.waf*/
+build-win*/
+build/
+win*/binaries/
+win32/nsis/xiphos*.exe
+win32/po/messages.mo
