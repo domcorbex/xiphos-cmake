@@ -7,21 +7,16 @@ if (HAVE_DBUS)
   message (STATUS "Building ${PROJECT_NAME}-nav")
 
 
-  # need to generate 1 file: ipc-interface.h
-  add_custom_command (
-    OUTPUT (
-      ${CMAKE_CURRENT_BINARY_DIR}/ipc-interface.h
-      )
-
+  # need first to generate: ipc-interface.h
+  add_custom_command (OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/ipc-interface.h
     # process ipc-interface.xml to generate ipc-interface.h
     COMMAND ${DBUS_BINDING_TOOL}
     ARGS
     --mode=glib-client
     --output=${CMAKE_CURRENT_BINARY_DIR}/ipc-interface.h
-    --prefix=ipc_object ${CMAKE_CURRENT_SOURCE_DIR}/ipc-interface.xml
-    MAIN_DEPENDENCY ${CMAKE_CURRENT_SOURCE_DIR}/ipc-interface.xml
+    --prefix=ipc_object ${CMAKE_CURRENT_SOURCE_DIR}/../gnome2/ipc-interface.xml
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-    COMMENT "Generating src/example files"
+    COMMENT "Generating src/example/ipc-interface.h"
     )
 
 
