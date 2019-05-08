@@ -1,4 +1,1 @@
-This project has moved to:
-
-https://gitlab.com/domcox/xiphos-cmake
-
+This project has been merged to the current trunk.
