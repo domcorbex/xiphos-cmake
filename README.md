@@ -1,7 +1,7 @@
 SUMMARY
 =======
 
-[Installation Instructions](#installations-instructions)    
+[Installation Instructions](#installation-instructions)    
   [GNU/Linux distributions](#gnu-linux-distributions)  
   [Windows](#windows)  
 [Compile Xiphos from source](#compile-from-source)  
