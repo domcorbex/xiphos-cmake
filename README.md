@@ -1,5 +1,7 @@
-SUMMARY
-=======
+Installation instructions
+==========================
+
+## SUMMARY
 
 - Installation Instructions
    - GNU/Linux packages
@@ -9,8 +11,6 @@ SUMMARY
 - Build Xiphos On *Debian*, *Ubuntu*, or *Linux Mint*:
 - Building for Windows®
 
-Installation instructions
-==========================
 
 GNU/Linux packages:
 -------------------
