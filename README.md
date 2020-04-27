@@ -1,13 +1,13 @@
 SUMMARY
 =======
 
-[Installation Instructions](#installations-instructions)
-  [GNU/Linux distributions](#gnu-linux-instructions)
-  [Windows](#windows)
-[Compile Xiphos from source](#compile-from-source)
-[Build Xiphos on *Fedora*, *Red Hat* or *CentOS*](#build-xiphos-on-*fedora*,-*red hat*-or-*centos*:)
-[Build Xiphos On *Debian*, *Ubuntu*, or *Linux Mint*:](#build-xiphos-on-*debian*,-*ubuntu*,-or-*linux-mint*:)
-[Building for Windows®](#building-for-windows-:)
+[Installation Instructions](#installations-instructions)    
+  [GNU/Linux distributions](#gnu-linux-instructions)  
+  [Windows](#windows)  
+[Compile Xiphos from source](#compile-from-source)  
+[Build Xiphos on *Fedora*, *Red Hat* or *CentOS*](#build-xiphos-on-*fedora*,-*red hat*-or-*centos*:)  
+[Build Xiphos On *Debian*, *Ubuntu*, or *Linux Mint*:](#build-xiphos-on-*debian*,-*ubuntu*,-or-*linux-mint*:)  
+[Building for Windows®](#building-for-windows-:)  
 
 Installation instructions
 ==========================
