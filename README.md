@@ -1,19 +1,19 @@
 SUMMARY
 =======
 
-[Installation Instructions](#installation-instructions)    
-   [GNU/Linux distributions](#gnulinux-distributions)  
-   [Windows](#windows)  
-[Compile Xiphos from source](#compile-from-source)  
-[Build Xiphos on *Fedora*, *Red Hat* or *CentOS*](#build-xiphos-on-*fedora*,-*red hat*-or-*centos*:)  
-[Build Xiphos On *Debian*, *Ubuntu*, or *Linux Mint*:](#build-xiphos-on-*debian*,-*ubuntu*,-or-*linux-mint*:)  
-[Building for Windows®](#building-for-windows-:)  
+- Installation Instructions
+   - GNU/Linux packages
+   - Windows® install
+- Compile Xiphos from source
+- Build Xiphos on *Fedora*, *Red Hat* or *CentOS*
+- Build Xiphos On *Debian*, *Ubuntu*, or *Linux Mint*:
+- Building for Windows®
 
 Installation instructions
 ==========================
 
-GNU/Linux distributions:
------------------------
+GNU/Linux packages:
+-------------------
 For regular users, we strongly advise that you use your distribution's packages,
 they usually provide integration to your distribution and you will automatically
 get security updates.
@@ -29,8 +29,8 @@ On *Debian*, *Ubuntu*, or *Linux Mint*:
 
 For others distributions, check your distribution's help for how to do this.
 
-Windows®:
--------
+Windows® install:
+-------------------
 Download the latest .exe file from: http://xiphos.org/download/ or
 https://github.com/crosswire/xiphos/releases
 
@@ -206,13 +206,13 @@ or:
 
 
 Build Xiphos on *Fedora*, *Red Hat* or *CentOS*:
-------------------------------------------------
+================================================
 
-### 1. Clone Xiphos git
+## 1. Clone Xiphos git
 
     $ git https://github.com/crosswire/xiphos.git
 
-### 2. Create and enter the build directory
+## 2. Create and enter the build directory
 
 Create a build directory as a sibling of the xiphos directory:
 
@@ -221,15 +221,15 @@ Create a build directory as a sibling of the xiphos directory:
 	build xiphos
 	$ cd build
 
-### 3. Install dependencies
+## 3. Install dependencies
 
     $ sudo dnf install cmake gcc-c++ intltool make gtk3-devel dbus-glib-devel gtkhtml3-devel webkitgtk4-devel libidn-devel libxml2-devel libgsf-devel minizip-devel sword-devel libuuid-devel biblesync-devel intltool libappstream-glib-devel desktop-file-utils itstool yelp yelp-tools
 
-### 4. Configure build
+## 4. Configure build
 
     $ cmake -DCMAKE_INSTALL_PREFIX=/usr -DGTKHTML=ON ../xiphos
 
-### 5. Build and install, run xiphos
+## 5. Build and install, run xiphos
 
     $ make -j$(nproc) && sudo make install
 	$ cd ~
@@ -237,9 +237,9 @@ Create a build directory as a sibling of the xiphos directory:
 
 
 Build Xiphos On *Debian*, *Ubuntu*, or *Linux Mint*:
-----------------------------------------------------
+===================================================
 
-### 1. Install GTKHtml
+## 1. Install GTKHtml
 
     $ curl -Ls -o gtkhtml-4.10.0.tar.xz https://download.gnome.org/sources/gtkhtml/4.10/gtkhtml-4.10.0.tar.xz
     $ tar xf gtkhtml-4.10.0.tar.xz
@@ -248,7 +248,7 @@ Build Xiphos On *Debian*, *Ubuntu*, or *Linux Mint*:
     $ make -j2
     $ make install
 
-### 2. Install Biblesync
+## 2. Install Biblesync
 
     $ curl -Ls -o biblesync-1.2.0.tar.gz https://github.com/karlkleinpaste/biblesync/archive/1.2.0.tar.gz
     $ tar xf biblesync-1.2.0.tar.gz
@@ -259,11 +259,11 @@ Build Xiphos On *Debian*, *Ubuntu*, or *Linux Mint*:
     $ make -j2
     $ make install
 
-### 3. Clone git
+## 3. Clone git
 
     $ git https://github.com/crosswire/xiphos.git
 
-### 4. Create and enter the build directory
+## 4. Create and enter the build directory
 
 Create a build directory as a sibling of the xiphos directory:
 
@@ -272,15 +272,15 @@ Create a build directory as a sibling of the xiphos directory:
 	build xiphos
 	$ cd build
 
-### 5. Install the required dependencies:
+## 5. Install the required dependencies:
 
     $ sudo apt-get appstream-util cmake g++ desktop-file-utils fp-utils git gsettings-desktop-schemas-dev intltool itstool libdbus-glib-1-dev libenchant-dev libgail-3-dev libglade2-dev libgtk-3-dev libminizip-dev libsword-dev libwebkit2gtk-4.0-dev libxml2-dev libxml2-utils make python-dev swig uuid-dev uuid-runtime yelp-tools xzip
 
-### 6. Configuration:
+## 6. Configuration:
 
     $ cmake -DCMAKE_INSTALL_PREFIX=/usr -DWEBKIT1=ON ../xiphos
 
-### 7. Build and install
+## 7. Build and install
 
     $ make -j$(nproc) && make install
 
@@ -342,9 +342,11 @@ or for building a regular RPM package (recommended):
 Cross-Compiling Xiphos for Windows®
 ===================================
 
-These instructions describe cross-compilation for Windows® using Fedora MinGW cross-compilation support.
+These instructions describe cross-compilation for Windows® using Fedora MinGW
+cross-compilation support.
 
-These instructions work on Fedora 30, compilation on Fedora 31+ versions will not work anymore as wekbitgtk has been deprecated.
+These instructions work on Fedora 30, compilation on Fedora 31+ versions will
+not work anymore as wekbitgtk has been deprecated.
 
 Specific requirements:
 ---------------------
@@ -440,4 +442,3 @@ A script named `xc-xiphos-win.sh` in the win32 directory will run automatically
 all the steps above.
 
 See intructions in the file `win32/WindowsBuildNotes.txt`
-
