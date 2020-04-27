@@ -2,7 +2,7 @@ SUMMARY
 =======
 
 [Installation Instructions](#installation-instructions)    
-   [GNU/Linux distributions](#gnu-linux-distributions)  
+   [GNU/Linux distributions](#gnulinux-distributions)  
    [Windows](#windows)  
 [Compile Xiphos from source](#compile-from-source)  
 [Build Xiphos on *Fedora*, *Red Hat* or *CentOS*](#build-xiphos-on-*fedora*,-*red hat*-or-*centos*:)  
